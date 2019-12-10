@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UF-8">
+    <meta name="viewport" content= "width-device-width, initial-scale=1.0">
+    <title>Dave Koeller-Contact Me</title>
+    <link rel="shortcut icon" href="assets/images/fergal.ico" />
+    <link rel ="stylesheet" href ="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dave Koeller</h1>
+        <nav>
+            <ul class="menu">
+                <li id="index"><a href="index.html">About</a></li>
+                <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                <li id="contact"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <br>
+
+    <div id="form">
+        <!--Sends the information to my email, when the submit button is pushed-->
+        <form action="https://formspree.io/xkngjolk" target="_blank" method="POST">
+            <h2>Contact</h2>
+
+            <hr />
+
+            <div id="inner-form">
+                <label>Name</label>
+
+                <br>
+
+                <input type="text" name="fullname" placeholder="John Smith" class="text-area">
+
+                <br>
+
+                <label>Email</label>
+
+                <br>
+
+                <input type="text" name="email" placeholder="example@gmail.com" class="text-area">
+
+                <br>
+
+                <label>Message</label>
+
+                <br>
+
+                <textarea type="text" name="message" id="message" style="height:200px" class="text-area"></textarea>
+
+                <br>
+
+                <input class="button" type="submit" value="Submit">
+            </div>
+
+        </form>
+    
+    </div>
+
+    <footer>
+        Copyright &copy;
+    </footer>
+</body>
+</html>
