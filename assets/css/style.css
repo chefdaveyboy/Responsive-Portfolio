@@ -178,37 +178,46 @@ a:hover {
 
 @media screen and (max-width: 980px) {
 
-   h1 {
-       float: none;
-       margin-left: 0;
-   }
-
-   .menu {
-       float: none;
-       width: 100%;
-       text-align: center;
-       margin: 10px;
-       
-   }
-
-   #about, #links, #form {
-       width: 100%;
-       margin-bottom: 200px;
-       margin-top: 200px;
+    #about, #links, #form {
+        width: auto;
+        margin-left: 50px;
+        margin-right: 400px;
+        margin-bottom: 200px;
+        margin-top: 200px;
    }
 
    .text-area {
-       width: 100%;
+       width: 90%;
    }
-
-   
-
-}
 
 @media screen and (max-width: 768px) {
 
 }
 
 @media screen and (max-width: 640px) {
+
+    h1 {
+        float: none;
+        margin-left: 0;
+    }
+ 
+    .menu {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+        
+    }
+ 
+    #about, #links, #form {
+        width: 100%;
+        margin-bottom: 200px;
+        margin-top: 200px;
+    }
+ 
+    .text-area {
+        width: 100%;
+    }
+ 
 
 }
