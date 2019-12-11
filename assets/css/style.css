@@ -63,7 +63,6 @@ footer {
 .menu {
     list-style-type: none;
     float: right;
-    width: 20%;
     padding: 20px;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -190,7 +189,16 @@ a:hover {
        width: 90%;
    }
 
+   h1 {
+       margin-left: 50px;
+   }
+}
+
 @media screen and (max-width: 768px) {
+
+    #about, #links, #form {
+        margin: 100px auto 200px auto;
+    }
 
 }
 
@@ -199,14 +207,17 @@ a:hover {
     h1 {
         float: none;
         margin-left: 0;
+        
     }
  
     .menu {
         float: none;
         width: 100%;
         text-align: center;
-        margin: 10px;
-        
+        border: solid 1px #dddddd;
+        margin: 0;
+        background-color: #ffffff;
+
     }
  
     #about, #links, #form {
